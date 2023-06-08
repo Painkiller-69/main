@@ -1,0 +1,4 @@
+
+install this dependencies in terminal
+
+npm install express mongoose ejs body-parser

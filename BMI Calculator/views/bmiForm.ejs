@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMI Calculator</title>
+</head>
+<body>
+  <h1>BMI Calculator</h1>
+  <form action="/savedata" method="POST">
+    <label>Email:</label>
+    <input type="email" name="email" required><br>
+
+    <label>Weight (kg):</label>
+    <input type="number" name="weight" step="0.01" required><br>
+
+    <label>Height (m):</label>
+    <input type="number" name="height" step="0.01" required><br>
+
+    <label>BMI:</label>
+    <input type="number" name="bmi" step="0.01" required><br>
+
+    <label>BMI Value:</label>
+    <input type="text" name="bmivalue" required><br>
+
+    <button type="submit">Save</button>
+  </form>
+</body>
+</html>
